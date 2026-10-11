@@ -1,0 +1,46 @@
+# Secrets and keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+secrets/
+
+# VM images, exports, snapshots, and packet captures
+*.ova
+*.ovf
+*.vdi
+*.vmdk
+*.vhd*
+*.qcow2
+*.iso
+*.vbox*
+*.pcap
+*.pcapng
+snapshots/
+
+# Raw evidence may contain personal or security-sensitive data
+evidence/raw/
+evidence/**/raw/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+desktop.ini
+
+# Generated reports
+reports/generated/
+tmp/
+*.tmp
+*.log
+
+# Local assistant state and derived output
+.agents/
+.codex/
+output/
+__pycache__/
+*.py[cod]
